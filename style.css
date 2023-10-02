@@ -1,0 +1,176 @@
+/* unvisited link */
+a:link {
+    color: rgb(207, 207, 207);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(73, 94, 217);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+}
+
+
+
+  head, body {
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+p {
+    color:white;
+}
+#pcenter{
+    text-align: center;
+}
+
+#rcorners {
+    background-color: gray;
+    background-image: url(images/darkforest.jpg);
+    border-radius:25px;
+    width: 99%;
+    height: auto;
+    padding-top: 1%;
+    padding-bottom: 0.1%;
+    padding-right: 0%;
+}
+
+html{
+    background-color:rgb(27, 27, 27);
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.centered-element{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 15px;
+    width: 120px;
+}
+
+#sprite_player, #sprite_stalker, #sprite_unknown, #sprite_prawler{
+    border-radius: 25px;
+    background: rgb(2,0,36);
+    background: linear-gradient(135deg, rgba(2,0,36,1)0%, rgba(24,24,46,1)30%, rgba(83,93,149,1)100%);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 19.95%;
+    min-width: 19.95%;
+    height: 150px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+
+table, tr, th {
+    background-color:rgba(0, 0, 0, .3);
+    border: 2px solid white;
+    margin: 1%;
+    
+}
+
+
+#red {
+    color: rgb(255, 162, 162);
+}
+
+a {
+    text-decoration: none;
+}
+
+div {
+    margin: 10px;
+}
+
+.first, .second, .third, .fourth {
+    width: 25%;
+    display: inline-block;
+}
+
+@media screen and (max-width: 500px) {
+
+    .first,
+    .second,
+    .third,
+    .fourth {
+        width: 70%;
+    }
+}
+
+/* Sidenav menu */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: -250px;
+  background-color: #e8e8e8;
+  padding-top: 60px;
+}
+
+/* Sidenav menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #542376;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: white;
+}
+
+.sidenav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Active class */
+.sidenav.active {
+  left: 0;
+}
+
+/* Close btn */
+.sidenav .close {
+  position: absolute;
+  top: 0;
+  right: 5%;
+  font-size: 36px;
+}
+
+/* Icône burger */
+.burger-icon span {
+  display: block;
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+}
+
+  
